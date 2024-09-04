@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables */
+/* Color names from https://chir.ag/projects/name-that-color/ */
+:root {
+  --bright-gray: #3d434e;
+  --ebony-clay: #28313e;
+  --geyser: #d7dce4;
+  --outer-space: #33383e;
+  --raven: #717885;
+  --royal-blue: #4537de;
+  --shuttle-gray: #606671;
+  --trout: #4d525d;
+  --silver-sand: #c5c8cb;
+}
+
+.bg-royal-blue {
+  background-color: var(--royal-blue);
+}
+
+.border-geyser {
+  border-color: var(--geyser);
+}
+
+.border-silver-sand {
+  border-color: var(--silver-sand);
+}
+
+.text-bright-gray {
+  color: var(--bright-gray);
+}
+
+.text-ebony-clay {
+  color: var(--ebony-clay);
+}
+
+.text-outer-space {
+  color: var(--outer-space);
+}
+
+.text-raven {
+  color: var(--raven);
+}
+
+.text-royal-blue {
+  color: var(--royal-blue);
+}
+
+.text-shuttle-gray {
+  color: var(--shuttle-gray);
+}
+
+.text-trout {
+  color: var(--trout);
+}
