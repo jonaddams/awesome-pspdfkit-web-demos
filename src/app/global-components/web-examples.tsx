@@ -28,7 +28,7 @@ export default function WebExamples() {
       </div>
 
       {/* electronic signatures examples */}
-      <div className="mb-3">
+      {/* <div className="mb-3">
         <h3 className="text-shuttle-gray mb-1 text-base font-semibold lg:text-lg">
           Electronic Signatures
         </h3>
@@ -39,7 +39,7 @@ export default function WebExamples() {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
 
       {/* text comparison examples */}
       <div className="mb-3">
@@ -48,30 +48,15 @@ export default function WebExamples() {
         </h3>
         <ul className="ml-5 list-disc">
           <li>
-            <Link href="/web/template" className="text-royal-blue underline">
-              Description of the example
+            <Link
+              href="/web/text-comparison"
+              className="text-royal-blue underline"
+            >
+              Semantic Text Comparison of Two Documents
             </Link>
           </li>
         </ul>
       </div>
-
-      {/* template 
-        <div className="mb-3">
-        <h3 className="text-shuttle-gray mb-1 text-base font-semibold lg:text-lg">
-            Category EG Annotations
-        </h3>
-        <ul className="ml-5 list-disc">
-            <li>
-            <Link
-                href="/path/to/example"
-                className="text-royal-blue underline"
-            >
-                Description of the example
-            </Link>
-            </li>
-        </ul>
-        </div>
-        end template */}
     </div>
   );
 }
