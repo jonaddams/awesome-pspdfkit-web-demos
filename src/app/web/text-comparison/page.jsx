@@ -4,10 +4,10 @@ import { useEffect, useRef, useState } from "react";
 
 export default function Page() {
   const originalDoc =
-    "https://public-solutions-engineering-bucket.s3.eu-central-1.amazonaws.com/docs/text-comparison-a-v1.pdf";
+    "https://public-solutions-engineering-bucket.s3.eu-central-1.amazonaws.com/docs/text-comparison-a.pdf";
   const changedDoc =
-    "https://public-solutions-engineering-bucket.s3.eu-central-1.amazonaws.com/docs/text-comparison-b-v1.pdf";
-    
+    "https://public-solutions-engineering-bucket.s3.eu-central-1.amazonaws.com/docs/text-comparison-b.pdf";
+
   const numberOfContextWords = 100;
   const deleteHighlightColor = { r: 255, g: 201, b: 203 }; // #FFC9CB
   const insertHighlightColor = { r: 192, g: 216, b: 239 }; // #C0D8EF
